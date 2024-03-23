@@ -1,0 +1,120 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #BAE5C0
+}
+
+h2 {
+  font-size: 2rem;
+  color: #ECB159;
+}
+
+h3 {
+  font-size: 1.2rem;
+  color: #6895D2
+}
+
+hr {
+  border: dotted 7px #CCD3CA;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+.font_dancing_script {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-profile  {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+
+
+.top-earth {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.top-sun {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.gradient-background {
+	background: linear-gradient(45deg, #030303, #7B9AA0, #4D6470, #A3BAC0);
+	background-size: 150% 150%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.profile-img {
+  border-radius: 50%;
+  background-color: #CCD3CA;
+}
+
+.introduction {
+  width: 50%;
+  font-size: medium;
+  margin:auto;
+}
+
+.hobbies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+  width: 75%;
+  border: solid 2px #F0F3FF;
+}
+
+.hobby-items {
+  flex-basis: 30%;
+  color: #4D6470;
+}
+
+.skills {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: auto minmax(200px, 400px);
+  column-gap: 1rem;
+  row-gap: 2rem;
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  align-items: center;
+}
+
+.font-skills  {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
